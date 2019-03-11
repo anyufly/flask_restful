@@ -42,8 +42,8 @@ class Forbidden(APIException):
     error_code = 1004
     msg = '权限不够，禁止访问'
 
-
-class DuplicateGift(APIException):
-    code = 400
-    error_code = 2001
-    msg = '当前书籍已存在于礼物清单中'
+# 定义自己的异常
+# class DuplicateGift(APIException):
+#     code = 400
+#     error_code = 2001
+#     msg = '当前书籍已存在于礼物清单中'
